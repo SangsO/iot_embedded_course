@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:"http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>asdasd</title>
+</head>
+<body>
+
+<br><br>
+<h1>사용자 목록 보기</h1>
+<table border =1>
+	<tr>
+		<td>아이디</td><td>이름</td><td>나이</td>
+	</tr>
+	<tbody>
+	
+		<tr th:each="list:${list}">	
+			<td><span th:text="${list.userid}"></span></td>
+			<td><span th:text="${list.username}"></span></td>
+			<td><span th:text="${list.age}"></span></td>
+		</tr>
+	
+	</tbody>
+	
+</table>
+
+
+</body>
+</html>

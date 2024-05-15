@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:"http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>asdasd</title>
+
+<script>
+function register() {
+	
+	document.memberRegistry.action = '/member/memberRegistry';
+	document.memberRegistry.submit();
+}
+</script>
+</head>
+<body>
+
+<form name="memberRegistry" method="post" onsubmit="register()">
+	아이디 : <input type ="text" name="userid"><br>
+	이름 : <input type ="text" name="username"><br>
+	나이 : <input type ="text" name="age"><br>
+	<input type="button" value="등록" onclick="register()">
+</form>
+
+</body>
+</html>
