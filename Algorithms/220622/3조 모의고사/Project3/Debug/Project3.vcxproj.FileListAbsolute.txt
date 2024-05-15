@@ -1,0 +1,3 @@
+C:\Users\KCCI20\Documents\Project3\Debug\Project3.exe
+\\10.10.141.253\22 IoT 공유폴더\알고리즘 스터디\220622\3조 모의고사\Project3\Debug\Project3.exe
+D:\22 IoT 공유폴더\알고리즘 스터디\220622\3조 모의고사\Project3\Debug\Project3.exe

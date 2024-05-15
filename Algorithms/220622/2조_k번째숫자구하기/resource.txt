@@ -1,0 +1,8 @@
+문제
+https://programmers.co.kr/learn/courses/30/lessons/42748
+
+범위 기반 for문 for (auto : 원하는 변수)
+https://docs.microsoft.com/ko-kr/cpp/cpp/range-based-for-statement-cpp?view=msvc-170
+
+
+
