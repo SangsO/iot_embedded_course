@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainwidget</class>
+ <widget class="QWidget" name="mainwidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>790</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>mainwidget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="pTab1">
+      <attribute name="title">
+       <string>Home</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="pTab4">
+      <attribute name="title">
+       <string>Control</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="pTab5">
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <attribute name="title">
+       <string>Space_status</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="pTab6">
+      <attribute name="title">
+       <string>InOutData</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
